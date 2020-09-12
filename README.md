@@ -17,6 +17,6 @@ The javascript file therefore requires:
         / (divide).
         Once we establish the code for one operator, it can be replicated and just change the operator assigned.
 
-KHGKJHKLJD
+just trying to get git push done
 
 
