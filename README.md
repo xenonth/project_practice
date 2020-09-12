@@ -22,12 +22,14 @@ FUNCTIONS
 We need to establish functions for:
     (1) Storing the NUMBER(s) entered by the user. This NUMBER can be >1 click by the user as the NUMBER can be >9. 
         Therefore the function must understand that the NUMBER requested by the user is only complete when the user clicks an OPERATOR.
-        The NUMBER is then stored as a variable to be passed back into the final function to perform the arithmetic calculation when all numbers and operators have been entered and the EQUALS button is clicked by the user.
+        The NUMBER is then stored as a variable to be passed back into the final function to perform the arithmetic calculation.
+        The arithmetic calculation occurs when all numbers and operators have been entered, triggered by the EQUALS button being clicked by the user.
         Each NUMBER must be stored sequentially as the rules of arithmetic apply which are influenced by the OPERATOR type.
         
     (2) Storing the OPERATOR(s) entered by the user. 
         The OPERATOR requested by the user is complete when the user clicks an OPERATOR - there is no possibility for multiple entries like a number.
-        The OPERATOR is then stored as a variable BUT WE MUST to be passed back into the final function to perform the arithmetic calculation when all numbers and operators have been entered and the EQUALS button is clicked by the user.
+        The OPERATOR is then stored as a variable to be passed back into the final function to perform the arithmetic calculation.
+        The arithmetic calculation occurs when all numbers and operators have been entered, triggered by the EQUALS button being clicked by the user.
         Each OPERATOR must be stored sequentially (assigned to follow the number previously entered) as the rules of arithmetic apply which are influenced by the OPERATOR type.
 
     (3) The FUNCTION must loop to enable the entry of muliple NUMBERS and FUNCTIONS.
@@ -36,7 +38,16 @@ We need to establish functions for:
 
 
 
-    (5) The CLEAR button must have a function that clears all of the stored data. We could program it to clear the last variable entered but this is getting complicated. We could change the text assigned to the button from CLEAR to ALL CLEAR to make this evident.
+    (5) The CLEAR button must have a function that clears all of the stored data. We could program it to clear the last variable entered but this is getting complicated.
+        We could change the text assigned to the button from CLEAR to ALL CLEAR to make this evident.
+
+
+
+ERROR CHECKS
+The checks we can make are:
+    (1) The entry by the user prior to the EQUALS sign being clicked must be a NUMBER not an OPERATOR.
+
+
         
 
 
