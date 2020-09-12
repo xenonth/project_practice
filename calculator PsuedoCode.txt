@@ -1,0 +1,11 @@
+calculator PsuedoCode
+
+step 1
+program button 1,
+BEIGN
+    onClick, register to the REsult CARD
+END
+Repeat above for rest of the buttons
+
+STEP 2, 
+    
